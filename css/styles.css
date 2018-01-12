@@ -1,0 +1,60 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.carousel-controls a {
+
+background-color: rgba(255, 255, 255, 0.6);
+
+color: #000;
+
+padding: 10px 14px;
+
+font-size: 30px;
+
+}
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {
+
+	.card-deck-wrapper {margin-right:0;margin-left:0;}
+	.card-deck {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+	}
+	.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	    vertical-align: top;
+	}
+
+}
+/*.card-deck .card:not(:first-child) {
+  margin-left: 0px;
+}*/
+.btn-social {
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem; }
+
+/*btn for icons in about me*/
+.btn-icon {
+  background-color:white;
+  border-color: white;
+  box-shadow: white;
+}
+
+.my-header {
+  padding-top: 3em;
+}
+
+.card-img-top {
+  padding: 1em;
+}

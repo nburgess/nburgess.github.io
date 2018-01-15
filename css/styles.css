@@ -46,9 +46,19 @@ font-size: 30px;
 
 /*btn for icons in about me*/
 .btn-icon {
-  background-color:white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
   box-shadow: white;
+}
+/*btn for work images expansion*/
+.btn-down {
+  position:absolute;
+  bottom:0;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+  text-align:center;
 }
 
 .my-header {
@@ -57,4 +67,8 @@ font-size: 30px;
 
 .card-img-top {
   padding: 1em;
+}
+
+.card {
+  margin-bottom: 5;
 }
